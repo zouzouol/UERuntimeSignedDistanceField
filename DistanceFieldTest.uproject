@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{5EFB45B1-43EF-8480-41C6-2B82BD691183}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "DistanceFieldTest",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"UMG",
+				"CoreUObject"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "DatasmithRuntime",
+			"Enabled": true
+		}
+	]
+}
